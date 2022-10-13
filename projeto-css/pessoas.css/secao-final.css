@@ -1,0 +1,31 @@
+.div-pai {
+    display: flex;
+    justify-content: space-around;
+}
+.div__final img {
+    border-radius: 100%;
+}
+.div__final img + p {
+    text-align: center;
+    font-family: pacifico,sans-serif;
+    font-size: 1.5rem;
+    color: rgb(153, 13, 13);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.div__final p + p {
+    text-align: center;
+    margin-top: 0;
+    font-size:1.2rem;
+}
+@media (min-width: 0) {
+    .div-pai {
+       flex-direction: column;
+       align-items:center;
+    } 
+}
+@media(min-width: 795px) {
+    .div-pai {
+        flex-direction: row;
+    }
+}

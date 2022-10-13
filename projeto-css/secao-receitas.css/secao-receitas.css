@@ -1,0 +1,49 @@
+.secao {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(206, 203, 203);
+    
+}
+.botao {
+    margin-bottom: 1rem;
+}
+.div {
+    background: rgb(241, 240, 240);
+    width: 286px;
+    margin-bottom: 1.25rem;
+    margin-left: 2.5rem;
+    
+    
+}
+.titulo__receitas {
+    font-size:1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    padding-left: 0.8rem;
+}
+.secao__p {
+    padding-left: 0.8rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.botao {
+    margin-left: 0.8rem;
+    padding: 10px 25px ;
+    background: rgb(156, 23, 6);
+}
+.secao__link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.botao:hover {
+    transition: 1s;
+    padding: 14px 30px;
+}
+
+@media (max-width: 977px) {
+     .secao{
+         justify-content: space-around;
+         
+     }
+}
+
